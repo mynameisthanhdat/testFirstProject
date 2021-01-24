@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+.html, body {
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    background: rgb(236, 230, 230);
+    padding: 30px 0px;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+    position: fixed;
+    z-index: 2;
+}
+.menu-left {
+    padding-left: 50px;
+}
+
+.menu-left a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-right {
+    padding-right: 50px;
+}
+
+.menu-right .float-right a {
+    margin-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.menunho {
+    padding: 20px 0px;
+    font-size: 16px;
+}
